@@ -14,7 +14,7 @@ public class Lexi {
             return;
         }
 
-        al.add(curr);
+        al.add(String.valueOf(curr));
         for (int i = 0; i < 10; i++) {
             count(n, curr * 10 + i, al);
         }
